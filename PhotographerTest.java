@@ -18,10 +18,10 @@ public class PhotographerTest {
     assertEquals(0, photographer.cameraCount());
   }
 
-  // @Test
-  // public void canAddCamera(){
-  //   photographer.add(huh?);
-  //   assertEquals(1, photographer.cameraCount());
-  // }
+  @Test
+  public void canAddCamera(){
+    photographer.add(huh?);
+    assertEquals(1, photographer.cameraCount());
+  }
 
 }
